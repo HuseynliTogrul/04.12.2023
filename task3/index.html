@@ -1,30 +1,76 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
       theme: {
         extend: {
-          
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif']
+          }
         }
       }
     }
   </script>
 </head>
-<body class="min-h-screen flex justify-center items-center text-white">
-  <div class="bg-red-500">
+
+<body class="min-h-screen flex justify-center items-center text-white bg-[#E0E5FF]">
+  <div class="overflow-hidden rounded-[30px] font-poppins after:content-[''] after:w-[860px] after:h-[640px] after:bg-white after:absolute after:top-[7%] after:left-[22%] after:z-[-1] after:rounded-[30px]">
     <div class="flex">
-        <div class="bg-[#FB6B6B] w-[300px] h-[300px] rounded-t-[10px]">1</div>
-        <div class="bg-[#F1A864] w-[300px] h-[300px]">1</div>
-        <div class="bg-[#FB896B] w-[300px] h-[300px]">1</div>
+      <div class="bg-[#FB896B] w-[300px] h-[300px] py-[80px] px-[45px]">
+        <div class="flex items-center gap-[9px] mb-5">
+          <img src="./assets/icons/search.svg" alt="search">
+          <h4 class="text-xl font-semibold">Search</h4>
+        </div>
+        <p class="ml-4 mb-[28px] text-sm font-medium">Youtube Ads</p>
+        <p class="ml-4 mb-[18px] text-sm font-medium">SEO/Google Ads</p>
+        <button class="py-2.5 px-4 bg-[#F27151] rounded-sm w-[205px] text-left">Google shopping</button>
+      </div>
+      <div class="bg-[#FB6B6B] w-[300px] h-[300px] py-[80px] px-[45px]">
+        <div class="flex items-center gap-[9px] mb-5">
+          <img src="./assets/icons/picture.svg" alt="picture">
+          <h4 class="text-xl font-semibold">CRO</h4>
+        </div>
+        <p class="ml-4 mb-[28px] text-sm font-medium">Analysis</p>
+        <p class="ml-4 mb-[18px] text-sm font-medium">Multi variant testing</p>
+        <button class="py-2.5 px-4 bg-[#E65454] rounded-sm w-[205px] text-left">Landing pages</button>
+      </div>
+      <div class="bg-[#F1A864] w-[300px] h-[300px] py-[80px] px-[45px]">
+        <div class="flex items-center gap-[9px] mb-5">
+          <img src="./assets/icons/media.svg" alt="media">
+          <h4 class="text-xl font-semibold">Social Media</h4>
+        </div>
+        <p class="ml-4 mb-[28px] text-sm font-medium">Facebook</p>
+        <p class="ml-4 mb-[18px] text-sm font-medium">Linkedin</p>
+        <button class="py-2.5 px-4 bg-[#E29248] rounded-sm w-[205px] text-left">Tiktok</button>
+      </div>
     </div>
     <div class="flex">
-        <div class="bg-[#FBD36B] w-[300px] h-[300px]">1</div>
-        <div class="bg-[#485257] w-[600px] h-[300px]">1</div>
+      <div class="bg-[#FBD36B] w-[300px] h-[300px] p-10 px-[45px] text-[#485257]">
+        <div class="flex items-center gap-[9px] mb-5">
+          <img src="./assets/icons/search1.svg" alt="search">
+          <h4 class="text-xl font-semibold">Other Services</h4>
+        </div>
+        <p class="ml-4 mb-[28px] text-sm font-medium">Marketing</p>
+        <p class="ml-4 mb-[18px] text-sm font-medium">Digital tools</p>
+        <button class="py-2.5 px-4 bg-[#E1B648] rounded-sm w-[205px] text-left">Banner advertising</button>
+      </div>
+      <div class="bg-[#485257] w-[600px] h-[300px] p-10 px-[45px]">
+        <p class="w-[300px] text-xl font-medium">Do you want to increase your sales and reach your goals?</p>
+        <p class="text-sm font-normal my-4 w-[350px]">Schedule a free, no-obligation conversation with one of our experts to quickly improve the results of your business</p>
+        <button class="py-3 px-4 bg-white rounded-sm w-[205px] text-left text-[#485257] font-medium text-base">Book a conversation</button>
+      </div>
     </div>
   </div>
+  </div>
 </body>
+
 </html>
