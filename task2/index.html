@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily:{
+                        poppins:[ 'Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="bg-[#151E32] flex justify-center items-center text-white">
+    <div class="bg-[#1F2D4C] rounded-xl my-[68px] mx-[370px] py-[28px] px-[70px] w-[700px] font-poppins">
+        <div class="text-center">
+            <div class="flex justify-center text-base font-normal mb-10">
+                <p class="">Already have an account?</p>
+                <a href="#" class="text-[#E2627F]">Sign in</a>
+            </div>
+            <h3 class="text-[26px] font-semibold mb-6">Have a question about this product?</h3>
+            <p class="text-base font-normal mb-[68px]">Have a question about this product? Sign up for a free account to open an issue and contact its maintainers  </p>
+        </div>
+        <div class="">
+            <div class="">
+                <p class="m-1.5 text-base font-semibold ">Pick a username</p>
+                <input type="text" placeholder="Enter your username" class="rounded-md border-[#3C4E78] bg-inherit border p-5 text-base font-normal w-full">
+            </div>
+            <div class="my-6">
+                <p class="m-1.5 text-base font-semibold ">Your email address</p>
+                <input type="text" placeholder="Enter your email address" class="rounded-md border-[#3C4E78] bg-inherit border p-5 text-base font-normal w-full">
+            </div>
+            <div class="">
+                <p class="m-1.5 text-base font-semibold ">Password</p>
+                <input type="text" placeholder="Enter a password" class="rounded-md border-[#3C4E78] bg-inherit border p-5 text-base font-normal w-full">
+            </div>
+            <button class="my-6 px-[249px] py-5 bg-[#E2627F] rounded-md font-semibold">Sign Up</button>
+            <p class="text-center border px-6 py-[28px] text-sm font-normal border-[#3C4E78] rounded-md">By clicking “Sign Up”, you agree to our terms of service and privacy statement. We’ll send occasionally you account related emails</p>
+        </div>
+    </div>
+</body>
+
+</html>

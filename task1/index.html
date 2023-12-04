@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:wght@400;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily:{
+                        inter:['Inter', 'sans-serif'],
+                        merri:['Merriweather', "serif"]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body class="min-h-screen flex items-center justify-center">
+    <div class="w-[872px] bg-[#0A092D] px-16 py-16 text-center rounded-xl">
+        <h2 class="font-merri text-white text-4xl mb-3 font-bold">Get your free Podia account</h2>
+        <p class="text-[#D7D2E8] text-lg font-inter font-normal mb-6">Join the 150,000+ creators who use Podia to create websites, sell digital products, and build online communities.</p>
+        <button class="bg-[#9484C6] py-2.5 px-6 text-white rounded-xl text-lg font-semibold">Sign up free</button>
+    </div>
+</body>
+
+</html>
